@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<CustomData>
+  <CustomGroups>
+    <CustomGroup>
+      <name>Volunteer_Information</name>
+      <title>Volunteer Information</title>
+      <extends>Individual</extends>
+      <extends_entity_column_value_option_group>contact_type</extends_entity_column_value_option_group>
+      <extends_entity_column_value>Volunteer</extends_entity_column_value>
+      <style>Inline</style>
+      <collapse_display>0</collapse_display>
+      <weight>2</weight>
+      <is_active>1</is_active>
+      <table_name>civicrm_value_volunteer_inf_5</table_name>
+      <is_multiple>0</is_multiple>
+      <collapse_adv_display>0</collapse_adv_display>
+      <is_reserved>0</is_reserved>
+      <is_public>1</is_public>
+    </CustomGroup>
+  </CustomGroups>
+  <CustomFields>
+    <CustomField>
+      <name>camera_skill_level</name>
+      <label>Camera Skill Level</label>
+      <data_type>String</data_type>
+      <html_type>Multi-Select</html_type>
+      <is_required>0</is_required>
+      <is_searchable>1</is_searchable>
+      <is_search_range>0</is_search_range>
+      <weight>1</weight>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <column_name>camera_skill_level_11</column_name>
+      <in_selector>0</in_selector>
+      <option_group_name>skill_level</option_group_name>
+      <custom_group_name>Volunteer_Information</custom_group_name>
+    </CustomField>
+  </CustomFields>
+  <OptionGroups>
+    <OptionGroup>
+      <name>skill_level</name>
+      <title>Skill Level</title>
+      <is_reserved>1</is_reserved>
+      <is_active>1</is_active>
+      <is_locked>0</is_locked>
+    </OptionGroup>
+  </OptionGroups>
+  <OptionValues>
+    <OptionValue>
+      <label>Not interested</label>
+      <value>1</value>
+      <name>Not interested</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>1</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>skill_level</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>Teach me</label>
+      <value>2</value>
+      <name>Teach me</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>2</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>skill_level</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>Apprentice</label>
+      <value>3</value>
+      <name>Apprentice</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>3</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>skill_level</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>Journeyman</label>
+      <value>4</value>
+      <name>Journeyman</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>4</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>skill_level</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>Master</label>
+      <value>5</value>
+      <name>Master</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>5</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>skill_level</option_group_name>
+    </OptionValue>
+  </OptionValues>
+</CustomData>

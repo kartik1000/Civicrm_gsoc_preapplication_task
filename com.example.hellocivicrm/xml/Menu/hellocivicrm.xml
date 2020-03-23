@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/civihome-page</path>
+    <page_callback>CRM_Hellocivicrm_Page_CiviHomePage</page_callback>
+    <title>CiviHomePage</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/favextension</path>
+    <page_callback>CRM_Hellocivicrm_Form_FavoriteExtension</page_callback>
+    <title>FavoriteExtension</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>
