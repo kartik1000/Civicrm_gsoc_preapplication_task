@@ -20,6 +20,10 @@
     <span>{$form.favorite_color.label}</span>
     <span>{$form.favorite_color.html}</span>
   </div>
+  
+<form method="post">
+<input type="text"> Please Enter name of your Favourite CiviCRM extension
+</form>
 
 {* FOOTER *}
 <div class="crm-submit-buttons">
